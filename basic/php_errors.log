@@ -1,0 +1,10 @@
+[08-Nov-2016 16:45:07 UTC] PHP Fatal error:  Class 'app\controllers\EntryForm' not found in /home/ubuntu/workspace/basic/controllers/SiteController.php on line 133
+[08-Nov-2016 16:45:07 UTC] PHP Stack trace:
+[08-Nov-2016 16:45:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/basic/web/index.php:0
+[08-Nov-2016 16:45:07 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/basic/web/index.php:12
+[08-Nov-2016 16:45:07 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Application.php:375
+[08-Nov-2016 16:45:07 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/web/Application.php:100
+[08-Nov-2016 16:45:07 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Module.php:454
+[08-Nov-2016 16:45:07 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Nov-2016 16:45:07 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Nov-2016 16:45:07 UTC] PHP   8. app\controllers\SiteController->actionEntry() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
