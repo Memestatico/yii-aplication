@@ -1,16 +1,33 @@
 <?php
 
 use yii\helpers\Html;
-use yii\widgets\LinkPager;
+use yii\grid\GridView;
+
+/* @var $this yii\web\View */
+/* @var $searchModel app\models\CategoriaSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Categorias';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
+<div class="categoria-index">
 
-<h1>Categorias</h1>
-<ul>
-    <?php foreach ($categorias as $categoria): ?>
-        <li>
-            <?= Html::encode("{$categoria->nomecate} ({$categoria->codecate})") ?>
-        </li>
-<?php endforeach; ?>
-</ul>
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-<?= LinkPager::widget(['pagination' => $pagination]) ?>
+    <p>
+        <?= Html::a('Create Categoria', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'codecate',
+            'nomecate',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+</div>
