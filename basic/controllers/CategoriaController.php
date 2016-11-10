@@ -55,7 +55,7 @@ class CategoriaController extends Controller
             'model' => $this->findModel($id),
         ]);
     }
-
+    
     /**
      * Creates a new Categoria model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -68,7 +68,7 @@ class CategoriaController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->codecate]);
         } else {
-            return $this->render('create', [
+            return $this->renderAjax('create', [
                 'model' => $model,
             ]);
         }

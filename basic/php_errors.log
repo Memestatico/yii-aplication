@@ -8,3 +8,48 @@
 [08-Nov-2016 16:45:07 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:154
 [08-Nov-2016 16:45:07 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
 [08-Nov-2016 16:45:07 UTC] PHP   8. app\controllers\SiteController->actionEntry() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:54:14 UTC] PHP Fatal error:  Class 'ActiveDataProvider' not found in /home/ubuntu/workspace/basic/views/categoria/index.php on line 40
+[10-Nov-2016 19:54:14 UTC] PHP Stack trace:
+[10-Nov-2016 19:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/basic/web/index.php:0
+[10-Nov-2016 19:54:14 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/basic/web/index.php:12
+[10-Nov-2016 19:54:14 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Application.php:375
+[10-Nov-2016 19:54:14 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/web/Application.php:100
+[10-Nov-2016 19:54:14 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Module.php:454
+[10-Nov-2016 19:54:14 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:154
+[10-Nov-2016 19:54:14 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:54:14 UTC] PHP   8. app\controllers\CategoriaController->actionIndex() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:54:14 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/basic/controllers/CategoriaController.php:44
+[10-Nov-2016 19:54:14 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:378
+[10-Nov-2016 19:54:14 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:150
+[10-Nov-2016 19:54:14 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:248
+[10-Nov-2016 19:54:14 UTC] PHP  13. require() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:326
+[10-Nov-2016 19:54:18 UTC] PHP Fatal error:  Class 'ActiveDataProvider' not found in /home/ubuntu/workspace/basic/views/categoria/index.php on line 40
+[10-Nov-2016 19:54:18 UTC] PHP Stack trace:
+[10-Nov-2016 19:54:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/basic/web/index.php:0
+[10-Nov-2016 19:54:18 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/basic/web/index.php:12
+[10-Nov-2016 19:54:18 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Application.php:375
+[10-Nov-2016 19:54:18 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/web/Application.php:100
+[10-Nov-2016 19:54:18 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Module.php:454
+[10-Nov-2016 19:54:18 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:154
+[10-Nov-2016 19:54:18 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:54:18 UTC] PHP   8. app\controllers\CategoriaController->actionIndex() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:54:18 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/basic/controllers/CategoriaController.php:44
+[10-Nov-2016 19:54:18 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:378
+[10-Nov-2016 19:54:18 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:150
+[10-Nov-2016 19:54:18 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:248
+[10-Nov-2016 19:54:18 UTC] PHP  13. require() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:326
+[10-Nov-2016 19:56:02 UTC] PHP Fatal error:  Class 'ActiveDataProvider' not found in /home/ubuntu/workspace/basic/views/categoria/index.php on line 41
+[10-Nov-2016 19:56:02 UTC] PHP Stack trace:
+[10-Nov-2016 19:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/basic/web/index.php:0
+[10-Nov-2016 19:56:02 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/basic/web/index.php:12
+[10-Nov-2016 19:56:02 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Application.php:375
+[10-Nov-2016 19:56:02 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/web/Application.php:100
+[10-Nov-2016 19:56:02 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Module.php:454
+[10-Nov-2016 19:56:02 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:154
+[10-Nov-2016 19:56:02 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:56:02 UTC] PHP   8. app\controllers\CategoriaController->actionIndex() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/InlineAction.php:55
+[10-Nov-2016 19:56:02 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/basic/controllers/CategoriaController.php:44
+[10-Nov-2016 19:56:02 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/Controller.php:378
+[10-Nov-2016 19:56:02 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:150
+[10-Nov-2016 19:56:02 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:248
+[10-Nov-2016 19:56:02 UTC] PHP  13. require() /home/ubuntu/workspace/basic/vendor/yiisoft/yii2/base/View.php:326
